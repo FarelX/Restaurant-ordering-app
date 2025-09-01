@@ -34,3 +34,6 @@ A simple front-end application for ordering food (menu, cart, checkout modal). B
 ## 📚 About the Course
 
 This project is part of my progress in the Full Stack Developer Career Path on Scrimba.
+
+[Live Preview](https://farelx.github.io/Restaurant-ordering-app/)
+
