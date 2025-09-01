@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+header .hero {
+  background-image: url(images/pexels-valeriya-1639562.jpg);
+  background-size: 120%;
+  background-position: 0px 250px;
+  padding: 50px 40px;
+  color: white;
+}
+
+header .hero h1 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.menu-sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pisahkan info dan tombol */
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-info .menu-emoji {
+  font-size: 3.5rem;
+}
+
+.menu-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-info .menu-items {
+  line-height: 1.3rem;
+}
+
+.menu-info .menu-items .menu-title {
+  font-size: 1rem;
+}
+
+.menu-info .menu-items .price {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.menu-info .menu-items .ingredients {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.menu-sections .cart-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #3c3c3c;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-sections .cart-btn:hover {
+  background: #333;
+  color: white;
+}
+
+.order-section {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  display: none;
+}
+
+.order-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.order-item-info {
+  display: flex;
+  align-items: center;
+}
+
+.order-item-info h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #bbbbbb;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.order-item-price {
+  font-weight: bold;
+  margin: 0;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 20px;
+}
+
+.checkout-btn {
+  background-color: #16db99;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  width: 500px;
+  height: 380px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.modal-title {
+  font-size: 1.3rem;
+  margin: 1.2rem 0 2rem 0;
+  text-align: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.modal-content input {
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.modal-content input:focus {
+  border: 2px solid #16db99;
+}
+
+.modal-content button {
+  background-color: #16db99;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thank-you-message {
+  text-align: center;
+  background-color: #ecfdf5;
+  padding: 50px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.thank-you-message h2 {
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.thank-you-message p {
+  color: #065f46;
+}
